@@ -203,7 +203,7 @@ const Registration_Cmpt = () => {
 
 
       <canvas id='c' width="1366" height="641"></canvas>
-      <div style={{ backgroundColor: 'rgb(255 255 255 / 85%)' }} className="container mt-2 login-form p-0">
+      <div style={{ backgroundColor: 'rgb(255 255 255 / 85%)'}} className="container mt-3 login-form p-0">
 
         <div className="row shadow rounded p-4">
 
@@ -224,7 +224,7 @@ const Registration_Cmpt = () => {
 
             <Form.Group>
               <Form.Label className='mt-2'>Hospital Logo</Form.Label>
-              <Form.Control onChange={handleHospitalLogoInputChange} type="file" />
+              <Form.Control  onChange={handleHospitalLogoInputChange} type="file" />
             </Form.Group>
 
 
@@ -237,34 +237,34 @@ const Registration_Cmpt = () => {
 
               <div className="col-md-6">
                 <Form>
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Hospital Name:</Form.Label>
-                    <Form.Control type="text" placeholder="Hospital Name" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Hospital Name:</Form.Label>
+                    <Form.Control  type="text" placeholder="Hospital Name" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>How many total employees are there in the hospital:</Form.Label>
-                    <Form.Control style={{ width: '200px' }} type="number" placeholder="Total Employees" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>How many total employees are there in the hospital:</Form.Label>
+                    <Form.Control  style={{ width: '200px' }} type="number" placeholder="Total Employees" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Hospital Address line 1:</Form.Label>
-                    <Form.Control type="text" placeholder="Address" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Hospital Address line 1:</Form.Label>
+                    <Form.Control  type="text" placeholder="Address" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Phon Number:</Form.Label>
-                    <Form.Control type="number" placeholder="Phon Number" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Phon Number:</Form.Label>
+                    <Form.Control  type="number" placeholder="Phon Number" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Email Address:</Form.Label>
-                    <Form.Control type="email" placeholder="Email Address" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Email Address:</Form.Label>
+                    <Form.Control  type="email" placeholder="Email Address" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Password:</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Password:</Form.Label>
+                    <Form.Control  type="password" placeholder="Password" />
                   </Form.Group>
 
                 </Form>
@@ -275,43 +275,43 @@ const Registration_Cmpt = () => {
                 <Form>
                   <Form.Group className="mb-4">
                     <Form.Label className='fw-bold mb-3'>Hospital start date:</Form.Label>
-                    {/* <Form.Control type="text" placeholder="Hospital start date" /> */}
+                    {/* <Form.Control  type="text" placeholder="Hospital start date" /> */}
                     <br />
                     <DateTimePicker onChange={onChange} value={value} />
                   </Form.Group>
 
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>How many doctors are there in the hospital?:</Form.Label>
-                    <Form.Control style={{ width: '150px' }} type="number" placeholder="Total Doctors" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>How many doctors are there in the hospital?:</Form.Label>
+                    <Form.Control  style={{ width: '150px' }} type="number" placeholder="Total Doctors" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Hospital Address line 2:</Form.Label>
-                    <Form.Control type="text" placeholder="Address" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Hospital Address line 2:</Form.Label>
+                    <Form.Control  type="text" placeholder="Address" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Phon Number:</Form.Label>
-                    <Form.Control type="number" placeholder="Phon Number" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Phon Number:</Form.Label>
+                    <Form.Control  type="number" placeholder="Phon Number" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Email Address:</Form.Label>
-                    <Form.Control type="email" placeholder="Email Address" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Email Address:</Form.Label>
+                    <Form.Control  type="email" placeholder="Email Address" />
                   </Form.Group>
 
 
-                  <Form.Group className="mb-3">
-                    <Form.Label className='fw-bold'>Confirm Password:</Form.Label>
-                    <Form.Control type="password" placeholder="Confirm Password" />
+                  <Form.Group className="mb-1">
+                    <Form.Label className='fw-bold m-0 p-0'>Confirm Password:</Form.Label>
+                    <Form.Control  type="password" placeholder="Confirm Password" />
                   </Form.Group>
 
                 </Form>
               </div>
 
               <div className="d-grid gap-2">
-                <Button variant="primary" size="lg">
+                <Button variant="primary">
                   Submit
                 </Button>
               </div>
